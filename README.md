@@ -10,7 +10,7 @@ all you have to do is type in `.red` and the name of a subreddit and redcord wil
 
 <h4> for example... </h4>
 
-`.red dank memes`
+`.red dankmemes`
 
 `.red cursed_images`
 
