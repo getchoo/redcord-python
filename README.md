@@ -1,5 +1,21 @@
 # redcord
 
+<h2> what is this? </h2>
+
+redcord is a simple discord bot made with [discord.py](https://github.com/Rapptz/discord.py) that allows you to fetch a random picture from (almost) any subreddit right onto your own discord server!
+
+<h2> how do i use it? </h2>
+
+all you have to do is type in `.red` and the name of a subreddit and redcord will fetch a random image for you!
+
+<h4> for example... </h4>
+
+`.red dank memes`
+
+`.red cursed_images`
+
+`.red me_irl`
+
 <h2> how to install </h2>
   
 <h4> install dependencies: </h4>
