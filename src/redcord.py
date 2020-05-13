@@ -20,7 +20,7 @@ client = commands.Bot(command_prefix = '.')
 async def on_ready():
     print("Redcord is ready!")
 
-# replace command with what you want to type with your prefix to trigger sending the image.
+# replace all instances of ".red" for whatever command you want to use instead
 @client.event
 async def on_message(message):
     if message.content.startswith('.red'):
