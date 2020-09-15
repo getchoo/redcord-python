@@ -29,7 +29,7 @@ async def on_message(message):
         print(message)
         post = reddit.subreddit(message.replace(".red ", "")).random().url
         print(post)
-        await channel.send(reddit.subreddit(message.replace(".red ", "")).random().url)
+        await channel.send(post)
 
 # enter your discord bot token here
 client.run('DISCORD BOT TOKEN')
