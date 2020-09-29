@@ -39,3 +39,6 @@ async def on_message(message):
 
 # enter your discord bot token here
 client.run('BOT_TOKEN')
+
+
+# this code has super cow powers!
