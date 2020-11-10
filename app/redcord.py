@@ -8,7 +8,7 @@ from discord.ext import commands
 # reddit api info
 reddit = praw.Reddit(client_id='CLIENT_ID',
                      client_secret='CLIENT_SECRET',
-                     user_agent='Redcord bot for Discord')
+                     user_agent='python:com.sethfl.redcord:v0.1.0 (by /u/besidju-')
 
 # confirm connection to reddit
 if str(reddit.read_only) == 'True':
