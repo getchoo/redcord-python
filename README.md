@@ -1,14 +1,16 @@
-# redcord
+# redcord-python
 
-<h2> what is this? </h2>
+# [DEPRECATED AND REPLACED BY [THIS](https://github.com/sethfl/redcord) VERSION, WRITTEN IN RUST]
 
-redcord is a simple discord bot made with [discord.py](https://github.com/Rapptz/discord.py) that allows you to fetch a random picture from (almost) any subreddit right onto your own discord server!
+## what is this?
 
-<h2> how do i use it? </h2>
+`redcord-python` is a simple discord bot made with [discord.py](https://github.com/Rapptz/discord.py) that allows you to fetch a random picture from (almost) any subreddit right onto your own discord server!
+
+## how do i use it?
 
 all you have to do is type in `.red` and the name of a subreddit and redcord will fetch a random image for you!
 
-<h4> for example... </h4>
+#### for example...
 
 `.red dankmemes`
 
@@ -16,26 +18,22 @@ all you have to do is type in `.red` and the name of a subreddit and redcord wil
 
 `.red me_irl`
 
-<h2> how to install </h2>
-  
-<h4> install dependencies: </h4>
+## how to use:
+
+### install dependencies
  
  * python3
  * [discord.py](https://github.com/Rapptz/discord.py)
  * [praw](https://github.com/praw-dev/praw)
  
- <h4> clone the repo: </h4>
+### clone the repo
  
+ `git clone https://github.com/sethfl/redcord-python.git`
  
- `git clone https://github.com/sethfl/redcord.git`
+### fill out your reddit api/discord bot info in `app/redcord.py`
+
+get your client id and client secret for reddit from [here](https://github.com/reddit/reddit/wiki/OAuth2-Quick-Start-Example#first-steps), along with your user agent from [here](https://github.com/reddit/reddit/wiki/API). then, make a bot on discord by following [these](https://discordpy.readthedocs.io/en/latest/discord.html) instructions. finally, use all of these keys and codes to to fill out the fields in `redcord.py` 
  
- <h4> fill out your reddit api/discord bot info </h4>
+### now run it with
  
- 
- get your client id and client secret for reddit from [here](https://github.com/reddit/reddit/wiki/OAuth2-Quick-Start-Example#first-steps), along with your user agent from [here](https://github.com/reddit/reddit/wiki/API). then, make a bot on discord by following [these](https://discordpy.readthedocs.io/en/latest/discord.html) instructions. finally, use all of these keys and codes to to fill out the fields in `redcord.py` 
- 
- <h4> now run it </h4>
- 
- `python3 redcord.py`
- 
- <h2> have fun! </h2>
+`python3 app/redcord.py`
